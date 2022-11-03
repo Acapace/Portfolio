@@ -1,0 +1,40 @@
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 20px;
+  font-family: "Arial";
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  background-color: #49B5D6;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin-right: 15px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+button:hover {background-color: #3A84B5}
+
+button:active {
+background-color: #1A5199;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+transform: translateY(4px);
+}
+
+p{
+  display: none;
+}
+
+
+
+body{
+  background-color: lightgray;
+  text-align: center;
+}
+
+
+
