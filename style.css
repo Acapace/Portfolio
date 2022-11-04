@@ -1,6 +1,6 @@
 button {
   display: inline-block;
-  padding: 15px 25px;
+  padding: 8px 20px;
   font-size: 20px;
   font-family: "Arial";
   cursor: pointer;
@@ -32,6 +32,33 @@ p{
 body{
   background-color: lightgray;
   text-align: center;
+}
+
+footer{
+  border: none;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+ul li a {
+  display: inline-block;
+  padding: 15 px 25px;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid black;
+  border-bottom: none;
+  border-top: none;
+  font-weight: 600;
+  border: 1px solid black;
+  border-bottom: none;
+  border-top: none;
+  transition: all ease 0.5s;
 }
 
 

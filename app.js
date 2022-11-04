@@ -1,6 +1,8 @@
 
 $(() => {
 
+////buttons
+
         $(".home").click(function(){
         $(".home > p").toggle();
           $(".about > p").css("display", "none");
@@ -26,6 +28,17 @@ $(() => {
          $(".home > p").css("display", "none");
          $(".resume > p").css("display", "none");
    });
+
+
+////footer - mouseover mouseout for links
+    $("ul li a").mouseover(function() {
+        $(this).css("opacity", "0.3");
+    });
+     $("ul li a").mouseout(function() {
+        $(this).css("opacity", "1");
+    });
+
+
  });
 
 
