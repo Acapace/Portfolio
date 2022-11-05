@@ -1,7 +1,7 @@
 
 $(() => {
 
-////buttons
+////buttons with a drop down
 
         $(".home").click(function(){
         $(".home > p").toggle();
@@ -37,6 +37,12 @@ $(() => {
      $("ul li a").mouseout(function() {
         $(this).css("opacity", "1");
     });
+
+////Pop up for Contact Information
+    $(".contact-link").click(function(){
+       $(".contact").addClass();
+       $(".contact").css("display", "block");
+    })
 
 
  });
