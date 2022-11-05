@@ -39,10 +39,14 @@ $(() => {
     });
 
 ////Pop up for Contact Information
-    $(".contact-link").click(function(){
-       $(".contact").addClass();
-       $(".contact").css("display", "block");
-    })
+    $(".open").click(function(){
+        $(".popupOverlay").css("visibility", "visible");
+        $(".popupContent").css("visibility", "visible");
+    });
+         $(".close").click(function(){
+        $(".popupOverlay").css("visibility", "hidden");
+        $(".popupContent").css("visibility", "hidden");
+    });
 
 
  });

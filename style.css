@@ -69,12 +69,37 @@ ul li a {
   transition: all ease 0.5s;
 }
 
-.contactpopup{
-  display: none;
+/* Modal Popup */
+.popupOverlay{
+  background-color: rgba(0,0,0, .8);
+  border: solid 2px #666;
+  padding: 2rem;
+  cursor: default;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  visibility: hidden;
 }
 
-.messagepop{
-  background-color: lightgray;
-  border: 1px solid white;
-  cursor: default;
+.popupContent{
+  background-color: white;
+  border: solid 2px #666;
+  border-radius: 15px;
+  box-shadow: 3px 3px 6px rgb(0,0,0, .3);
+  padding: 4rem;
+  width: 50%;
+  position: absolute;
+  left: 25%;
+  visibility: hidden;
+  font-family: "Arial";
+  color: gray;
+}
+
+.popupContent p{
+  display: block;
+}
+
+.active {
+  visibility: visible;
 }
