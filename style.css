@@ -1,6 +1,6 @@
 button {
   display: inline-block;
-  padding: 8px 20px;
+  padding: 10px 20px;
   font-size: 20px;
   font-family: "Arial";
   cursor: pointer;
@@ -8,7 +8,7 @@ button {
   text-decoration: none;
   outline: none;
   color: white;
-  background-color: #49B5D6;
+  background-color: #50C7C7;
   border: none;
   border-radius: 15px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -17,10 +17,11 @@ button {
   margin-top: 5px;
 }
 
-button:hover {background-color: #3A84B5}
+button:hover {background-color: #3D8282;
+}
 
 button:active {
-background-color: #1A5199;
+background-color: #AEB8B8;
 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 transform: translateY(4px);
 }
@@ -96,7 +97,7 @@ ul li a {
   color: gray;
 }
 
-.popupContent p{
+.popupContent p {
   display: block;
 }
 

@@ -48,7 +48,6 @@ $(() => {
         $(".popupContent").css("visibility", "hidden");
     });
 
-
  });
 
 
