@@ -3,31 +3,31 @@ $(() => {
 
 ////buttons with a drop down
 
-        // $(".home").click(function(){
-        // $(".home > p").toggle();
-//           $(".about > p").css("display", "none");
-//           $(".resume > p").css("display", "none");
-//           $(".projects > p").css("display", "none");
-//     }); 
-    //    $(".about").click(function(){
-        // $(".about > p").toggle();
-//           $(".home > p").css("display", "none");
-//           $(".resume > p").css("display", "none");
-//           $(".projects > p").css("display", "none");
+        $(".projectOne").click(function(){
+        $(".projectOne > p").toggle();
+          $(".projectTwo > p").css("display", "none");
+          $(".projectThree > p").css("display", "none");
+          $(".projectFour > p").css("display", "none");
+    }); 
+       $(".projectTwo").click(function(){
+        $(".projectTwo > p").toggle();
+          $(".projectOne > p").css("display", "none");
+          $(".projectThree > p").css("display", "none");
+          $(".projectFour > p").css("display", "none");
 
-//    });
-//        $(".resume").click(function(){
-//        $(".resume > p").toggle();
-//          $(".about > p").css("display", "none");
-//          $(".home > p").css("display", "none");
-//          $(".projects > p").css("display", "none");
-//    });
-//        $(".projects").click(function(){
-//        $(".projects > p").toggle();
-//          $(".about > p").css("display", "none");
-//          $(".home > p").css("display", "none");
-//          $(".resume > p").css("display", "none");
-//    });
+   });
+       $(".projectThree").click(function(){
+       $(".projectThree > p").toggle();
+         $(".projectOne > p").css("display", "none");
+         $(".projectTwo > p").css("display", "none");
+         $(".projectFour > p").css("display", "none");
+   });
+       $(".projectFour").click(function(){
+       $(".projectFour > p").toggle();
+         $(".projectOne > p").css("display", "none");
+         $(".projectTwo > p").css("display", "none");
+         $(".projectThree > p").css("display", "none");
+   });
 
 
 ////footer - mouseover mouseout for links
