@@ -1,7 +1,7 @@
 
 $(() => {
 
-////buttons with a drop down
+////buttons with a drop down//// - on the project.html 
 
         $(".projectOne").click(function(){
         $(".projectOne > p").toggle();
@@ -30,7 +30,7 @@ $(() => {
    });
 
 
-////footer - mouseover mouseout for links
+////footer - mouseover mouseout for links//// - on index.html
     $("ul li a").mouseover(function() {
         $(this).css("opacity", "0.3");
     });
@@ -39,7 +39,7 @@ $(() => {
     });
 
 
-////Pop up for Contact Information
+////Pop up for Contact Information//// -on index.html
     $(".open").click(function(){
         $(".popupOverlay").css("visibility", "visible");
         $(".popupContent").css("visibility", "visible");
