@@ -38,6 +38,7 @@ $(() => {
         $(this).css("opacity", "1");
     });
 
+
 ////Pop up for Contact Information
     $(".open").click(function(){
         $(".popupOverlay").css("visibility", "visible");
