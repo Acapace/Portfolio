@@ -37,9 +37,15 @@ box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 transform: translateY(4px);
 }
 
-/* p{
+p{
   display: none;
-} */
+}
+
+/* Home page background */
+.mainPage{
+  background-image: url(https://i.imgur.com/FlkQWNZ.jpg);
+}
+
 
 body{
   width: 100%;
@@ -114,3 +120,29 @@ ul li a {
 .active {
   visibility: visible;
 }
+
+/* ABoutMe html page */
+.aboutPage {
+  background-color: #E6E6E6;
+}
+
+.p1{
+  display: block;
+}
+
+.container{
+  padding-left: 200px;
+  padding-right: 200px;
+}
+ 
+/* Resume html page */
+.resumePage{
+  background-color: #E6E6E6;
+}
+
+
+/* Project html page */
+.projectPage{
+  background-color: #E6E6E6;
+}
+
