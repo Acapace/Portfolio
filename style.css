@@ -46,15 +46,11 @@ body{
   height: 500%;
   background-size: cover;
   background-position: center;
-  background-image: url(https://i.imgur.com/FlkQWNZ.jpg);
   background-attachment: fixed;
-  
   text-align: center;
-  
 }
 
 /* footer/links */
-
 footer{
   border: none;
 }
