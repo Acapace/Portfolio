@@ -29,6 +29,14 @@ $(() => {
          $(".projectThree > p").css("display", "none");
    });
 
+///// Nav -  mouseover mouseout for links//// - on index.html
+    $(".topnav a").mouseover(function() {
+        $(this).css("opacity", "0.3");
+    });
+    $(".topnav a").mouseout(function() {
+        $(this).css("opacity", "1");
+    });
+    
 
 ////footer - mouseover mouseout for links//// - on index.html
     $("ul li a").mouseover(function() {
