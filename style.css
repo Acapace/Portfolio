@@ -9,6 +9,14 @@
   text-decoration: none;
 }
 
+.nav{
+  background-color: white;
+  height: 60px;
+  align-items: center;
+  line-height: 60px;
+  margin: 0;
+}
+
 /* Button in home page */
 button {
   display: inline-block;
@@ -55,6 +63,9 @@ body{
   background-position: center;
   background-attachment: fixed;
   text-align: center;
+  margin-top: 0;
+  /* margin-right: 0; */
+  margin-left: 0;
 }
 
 /* footer/links */
