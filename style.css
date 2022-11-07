@@ -159,3 +159,36 @@ ul li a {
   background-color: #E9E7E6;
 }
 
+
+/* Resume html page */
+.container{
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+/* Education line */
+.p2{
+  display: block;
+  font-family: Arial;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.p3{
+  display: block;
+  font-family: Arial;
+}
+
+.p4{
+  display: block;
+  font-family: Arial;
+}
+ /* Experience line */
+.p5{
+  display: block;
+  font-family: Arial;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
