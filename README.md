@@ -12,6 +12,8 @@ Clicking the links in the nav bar will take you to a new html page to read more:
 
 When on the Project page, there are 4 buttons.  When bringing your mouse over theses buttons you will again notice the color change and another color change when clicking the button to active. When clicking the buttons, a script will show up and upon clicking again the script will disappear. As I do not have projects to show at the moment i will have a script in place.
 
+Clicking the Home link will take you back to the home page.
+
 /////////
 Aside of my three JQuery interactrion used (button, mouseover/mouseout and a modal popup) I would of like to have had more time to add a carousel or play with the scroll interaction. Along with messing around with CSS more.
 
