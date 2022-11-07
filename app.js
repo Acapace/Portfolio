@@ -19,7 +19,7 @@ $(() => {
     });
 
 
-////Pop up for Contact Information//// -on index.html
+////Modal Popup for Contact Information//// -on index.html
     $(".open").click(function(){
         $(".popupOverlay").css("visibility", "visible");
         $(".popupContent").css("visibility", "visible");
@@ -42,7 +42,6 @@ $(() => {
           $(".projectOne > p").css("display", "none");
           $(".projectThree > p").css("display", "none");
           $(".projectFour > p").css("display", "none");
-
    });
        $(".projectThree").click(function(){
        $(".projectThree > p").toggle();
